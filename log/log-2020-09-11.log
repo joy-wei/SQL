@@ -1,0 +1,14 @@
+[2020-09-11 11:13:48.935461] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-09-11 11:13:49.271585] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-09-11 11:13:49.280539] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-09-11 11:13:49.280539] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，接口用例请求参数：{'words': 'java'}
+[2020-09-11 11:13:49.884162] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，返回参数：{'result': 0, 'data': [{'word': 'java'}, {'word': 'java入门'}, {'word': 'javascript'}, {'word': 'javaweb'}], 'msg': '成功'}
+[2020-09-11 11:13:49.885187] [INFO] [test_getRequestJson.py] [test_requestOne] [45] verify_result：True，verify_info:{}
+[2020-09-11 11:13:49.885187] [INFO] [test_getRequestJson.py] [test_requestOne] [55] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-09-11 11:13:49.885187] [INFO] [test_getRequestJson.py] [test_requestOne] [58] 测试用例断言成功
+[2020-09-11 11:13:49.890147] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-09-11 11:13:49.890147] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，接口用例请求参数：{'words': 'python'}
+[2020-09-11 11:13:50.236440] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，返回参数：{'result': 0, 'data': [{'word': 'python'}, {'word': 'python入门'}, {'word': 'python爬虫'}, {'word': 'python3'}, {'word': 'python数据分析'}], 'msg': '成功'}
+[2020-09-11 11:13:50.237437] [INFO] [test_getRequestJson.py] [test_requestOne] [45] verify_result：True，verify_info:{}
+[2020-09-11 11:13:50.237437] [INFO] [test_getRequestJson.py] [test_requestOne] [55] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-09-11 11:13:50.237437] [INFO] [test_getRequestJson.py] [test_requestOne] [58] 测试用例断言成功
